@@ -1,4 +1,4 @@
-# Lecture W1: Introduction to ROS
+# Chapter 1: Introduction to ROS
 
 ## Topics
 - What is ROS?
