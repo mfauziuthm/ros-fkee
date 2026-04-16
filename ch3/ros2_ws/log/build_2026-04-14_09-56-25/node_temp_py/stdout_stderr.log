@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/node_temp_py/node_temp_py.egg-info
+writing ../../build/node_temp_py/node_temp_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/node_temp_py/node_temp_py.egg-info/dependency_links.txt
+writing entry points to ../../build/node_temp_py/node_temp_py.egg-info/entry_points.txt
+writing requirements to ../../build/node_temp_py/node_temp_py.egg-info/requires.txt
+writing top-level names to ../../build/node_temp_py/node_temp_py.egg-info/top_level.txt
+writing manifest file '../../build/node_temp_py/node_temp_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/node_temp_py/node_temp_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/node_temp_py/node_temp_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mfauzi/ros2_ws/build/node_temp_py/build
+creating /home/mfauzi/ros2_ws/build/node_temp_py/build/lib
+creating /home/mfauzi/ros2_ws/build/node_temp_py/build/lib/node_temp_py
+copying node_temp_py/temp_display.py -> /home/mfauzi/ros2_ws/build/node_temp_py/build/lib/node_temp_py
+copying node_temp_py/temp_sensor.py -> /home/mfauzi/ros2_ws/build/node_temp_py/build/lib/node_temp_py
+copying node_temp_py/__init__.py -> /home/mfauzi/ros2_ws/build/node_temp_py/build/lib/node_temp_py
+running install
+running install_lib
+creating /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py
+copying /home/mfauzi/ros2_ws/build/node_temp_py/build/lib/node_temp_py/temp_display.py -> /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py
+copying /home/mfauzi/ros2_ws/build/node_temp_py/build/lib/node_temp_py/temp_sensor.py -> /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py
+copying /home/mfauzi/ros2_ws/build/node_temp_py/build/lib/node_temp_py/__init__.py -> /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py
+byte-compiling /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py/temp_display.py to temp_display.cpython-312.pyc
+byte-compiling /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py/temp_sensor.py to temp_sensor.cpython-312.pyc
+byte-compiling /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/mfauzi/ros2_ws/install/node_temp_py/share/ament_index
+creating /home/mfauzi/ros2_ws/install/node_temp_py/share/ament_index/resource_index
+creating /home/mfauzi/ros2_ws/install/node_temp_py/share/ament_index/resource_index/packages
+copying resource/node_temp_py -> /home/mfauzi/ros2_ws/install/node_temp_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/mfauzi/ros2_ws/install/node_temp_py/share/node_temp_py
+running install_egg_info
+Copying ../../build/node_temp_py/node_temp_py.egg-info to /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing temp_display script to /home/mfauzi/ros2_ws/install/node_temp_py/lib/node_temp_py
+Installing temp_sensor script to /home/mfauzi/ros2_ws/install/node_temp_py/lib/node_temp_py
+writing list of installed files to '/home/mfauzi/ros2_ws/build/node_temp_py/install.log'

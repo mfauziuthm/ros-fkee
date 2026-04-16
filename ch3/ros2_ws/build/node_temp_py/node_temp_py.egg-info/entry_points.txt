@@ -1,0 +1,3 @@
+[console_scripts]
+temp_display = node_temp_py.temp_display:main
+temp_sensor = node_temp_py.temp_sensor:main

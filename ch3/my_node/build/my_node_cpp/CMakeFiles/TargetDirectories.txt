@@ -1,0 +1,10 @@
+/home/mfauzi/ch3/my_node/build/my_node_cpp/CMakeFiles/uninstall.dir
+/home/mfauzi/ch3/my_node/build/my_node_cpp/CMakeFiles/my_node_cpp_uninstall.dir
+/home/mfauzi/ch3/my_node/build/my_node_cpp/CMakeFiles/minimal_node.dir
+/home/mfauzi/ch3/my_node/build/my_node_cpp/CMakeFiles/test.dir
+/home/mfauzi/ch3/my_node/build/my_node_cpp/CMakeFiles/edit_cache.dir
+/home/mfauzi/ch3/my_node/build/my_node_cpp/CMakeFiles/rebuild_cache.dir
+/home/mfauzi/ch3/my_node/build/my_node_cpp/CMakeFiles/list_install_components.dir
+/home/mfauzi/ch3/my_node/build/my_node_cpp/CMakeFiles/install.dir
+/home/mfauzi/ch3/my_node/build/my_node_cpp/CMakeFiles/install/local.dir
+/home/mfauzi/ch3/my_node/build/my_node_cpp/CMakeFiles/install/strip.dir

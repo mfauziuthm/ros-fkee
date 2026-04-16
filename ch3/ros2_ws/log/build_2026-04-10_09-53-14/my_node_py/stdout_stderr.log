@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/my_node_py/my_node_py.egg-info
+writing ../../build/my_node_py/my_node_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_node_py/my_node_py.egg-info/dependency_links.txt
+writing entry points to ../../build/my_node_py/my_node_py.egg-info/entry_points.txt
+writing requirements to ../../build/my_node_py/my_node_py.egg-info/requires.txt
+writing top-level names to ../../build/my_node_py/my_node_py.egg-info/top_level.txt
+writing manifest file '../../build/my_node_py/my_node_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_node_py/my_node_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_node_py/my_node_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mfauzi/ros2_ws/build/my_node_py/build
+creating /home/mfauzi/ros2_ws/build/my_node_py/build/lib
+creating /home/mfauzi/ros2_ws/build/my_node_py/build/lib/my_node_py
+copying my_node_py/minimal_node.py -> /home/mfauzi/ros2_ws/build/my_node_py/build/lib/my_node_py
+copying my_node_py/__init__.py -> /home/mfauzi/ros2_ws/build/my_node_py/build/lib/my_node_py
+running install
+running install_lib
+creating /home/mfauzi/ros2_ws/install/my_node_py/lib/python3.12/site-packages/my_node_py
+copying /home/mfauzi/ros2_ws/build/my_node_py/build/lib/my_node_py/minimal_node.py -> /home/mfauzi/ros2_ws/install/my_node_py/lib/python3.12/site-packages/my_node_py
+copying /home/mfauzi/ros2_ws/build/my_node_py/build/lib/my_node_py/__init__.py -> /home/mfauzi/ros2_ws/install/my_node_py/lib/python3.12/site-packages/my_node_py
+byte-compiling /home/mfauzi/ros2_ws/install/my_node_py/lib/python3.12/site-packages/my_node_py/minimal_node.py to minimal_node.cpython-312.pyc
+byte-compiling /home/mfauzi/ros2_ws/install/my_node_py/lib/python3.12/site-packages/my_node_py/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/mfauzi/ros2_ws/install/my_node_py/share/ament_index
+creating /home/mfauzi/ros2_ws/install/my_node_py/share/ament_index/resource_index
+creating /home/mfauzi/ros2_ws/install/my_node_py/share/ament_index/resource_index/packages
+copying resource/my_node_py -> /home/mfauzi/ros2_ws/install/my_node_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/mfauzi/ros2_ws/install/my_node_py/share/my_node_py
+running install_egg_info
+Copying ../../build/my_node_py/my_node_py.egg-info to /home/mfauzi/ros2_ws/install/my_node_py/lib/python3.12/site-packages/my_node_py-0.0.0-py3.12.egg-info
+running install_scripts
+Installing minimal_node script to /home/mfauzi/ros2_ws/install/my_node_py/lib/my_node_py
+writing list of installed files to '/home/mfauzi/ros2_ws/build/my_node_py/install.log'

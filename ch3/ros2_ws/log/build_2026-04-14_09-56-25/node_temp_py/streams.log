@@ -1,0 +1,41 @@
+[2.525s] Invoking command in '/home/mfauzi/ros2_ws/src/node_temp_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mfauzi/ros2_ws/build/node_temp_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node_temp_py build --build-base /home/mfauzi/ros2_ws/build/node_temp_py/build install --record /home/mfauzi/ros2_ws/build/node_temp_py/install.log --single-version-externally-managed install_data
+[2.984s] running egg_info
+[2.985s] creating ../../build/node_temp_py/node_temp_py.egg-info
+[3.011s] writing ../../build/node_temp_py/node_temp_py.egg-info/PKG-INFO
+[3.012s] writing dependency_links to ../../build/node_temp_py/node_temp_py.egg-info/dependency_links.txt
+[3.013s] writing entry points to ../../build/node_temp_py/node_temp_py.egg-info/entry_points.txt
+[3.015s] writing requirements to ../../build/node_temp_py/node_temp_py.egg-info/requires.txt
+[3.017s] writing top-level names to ../../build/node_temp_py/node_temp_py.egg-info/top_level.txt
+[3.019s] writing manifest file '../../build/node_temp_py/node_temp_py.egg-info/SOURCES.txt'
+[3.081s] reading manifest file '../../build/node_temp_py/node_temp_py.egg-info/SOURCES.txt'
+[3.081s] writing manifest file '../../build/node_temp_py/node_temp_py.egg-info/SOURCES.txt'
+[3.082s] running build
+[3.082s] running build_py
+[3.082s] creating /home/mfauzi/ros2_ws/build/node_temp_py/build
+[3.083s] creating /home/mfauzi/ros2_ws/build/node_temp_py/build/lib
+[3.084s] creating /home/mfauzi/ros2_ws/build/node_temp_py/build/lib/node_temp_py
+[3.084s] copying node_temp_py/temp_display.py -> /home/mfauzi/ros2_ws/build/node_temp_py/build/lib/node_temp_py
+[3.086s] copying node_temp_py/temp_sensor.py -> /home/mfauzi/ros2_ws/build/node_temp_py/build/lib/node_temp_py
+[3.086s] copying node_temp_py/__init__.py -> /home/mfauzi/ros2_ws/build/node_temp_py/build/lib/node_temp_py
+[3.086s] running install
+[3.093s] running install_lib
+[3.116s] creating /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py
+[3.117s] copying /home/mfauzi/ros2_ws/build/node_temp_py/build/lib/node_temp_py/temp_display.py -> /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py
+[3.117s] copying /home/mfauzi/ros2_ws/build/node_temp_py/build/lib/node_temp_py/temp_sensor.py -> /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py
+[3.118s] copying /home/mfauzi/ros2_ws/build/node_temp_py/build/lib/node_temp_py/__init__.py -> /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py
+[3.119s] byte-compiling /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py/temp_display.py to temp_display.cpython-312.pyc
+[3.120s] byte-compiling /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py/temp_sensor.py to temp_sensor.cpython-312.pyc
+[3.121s] byte-compiling /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py/__init__.py to __init__.cpython-312.pyc
+[3.122s] running install_data
+[3.122s] creating /home/mfauzi/ros2_ws/install/node_temp_py/share/ament_index
+[3.123s] creating /home/mfauzi/ros2_ws/install/node_temp_py/share/ament_index/resource_index
+[3.123s] creating /home/mfauzi/ros2_ws/install/node_temp_py/share/ament_index/resource_index/packages
+[3.124s] copying resource/node_temp_py -> /home/mfauzi/ros2_ws/install/node_temp_py/share/ament_index/resource_index/packages
+[3.124s] copying package.xml -> /home/mfauzi/ros2_ws/install/node_temp_py/share/node_temp_py
+[3.125s] running install_egg_info
+[3.151s] Copying ../../build/node_temp_py/node_temp_py.egg-info to /home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py-0.0.0-py3.12.egg-info
+[3.154s] running install_scripts
+[3.366s] Installing temp_display script to /home/mfauzi/ros2_ws/install/node_temp_py/lib/node_temp_py
+[3.366s] Installing temp_sensor script to /home/mfauzi/ros2_ws/install/node_temp_py/lib/node_temp_py
+[3.367s] writing list of installed files to '/home/mfauzi/ros2_ws/build/node_temp_py/install.log'
+[3.447s] Invoked command in '/home/mfauzi/ros2_ws/src/node_temp_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/mfauzi/ros2_ws/build/node_temp_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/ros2_ws/install/node_temp_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node_temp_py build --build-base /home/mfauzi/ros2_ws/build/node_temp_py/build install --record /home/mfauzi/ros2_ws/build/node_temp_py/install.log --single-version-externally-managed install_data

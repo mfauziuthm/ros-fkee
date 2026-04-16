@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.003170] (-) JobUnselected: {'identifier': 'my_node_py'}
+[0.003337] (my_node_cpp) JobQueued: {'identifier': 'my_node_cpp', 'dependencies': OrderedDict()}
+[0.003462] (my_node_cpp) JobStarted: {'identifier': 'my_node_cpp'}
+[0.024841] (my_node_cpp) JobProgress: {'identifier': 'my_node_cpp', 'progress': 'cmake'}
+[0.024965] (my_node_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/mfauzi/ch3/my_node/src/my_node_cpp', '-DCMAKE_INSTALL_PREFIX=/home/mfauzi/ch3/my_node/install/my_node_cpp'], 'cwd': '/home/mfauzi/ch3/my_node/build/my_node_cpp', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mfauzi', 'GIT_ASKPASS': '/home/mfauzi/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{c2635802-5392-5d8d-acdf-c47c61b18d1b}', 'HOME': '/home/mfauzi', 'OLDPWD': '/home/mfauzi/ch3/my_node/src', 'TERM_PROGRAM_VERSION': '1.114.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b2952b51-4fb0-4dd6-8ce2-9c939e4712f3.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mfauzi/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/mfauzi/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mfauzi', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/1842_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/mfauzi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/mfauzi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/mfauzi/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/mfrob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mfrob/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '8476bdb4-4ce2-4679-8638-97cc82fc39e6', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/mfauzi/.vscode-server/data/User/workspaceStorage/ab33794a7748e7dc6de6ed32c56834a9/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6573b812eb.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mfauzi/ch3/my_node/build/my_node_cpp', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[0.098954] (-) TimerEvent: {}
+[0.199743] (-) TimerEvent: {}
+[0.300400] (-) TimerEvent: {}
+[0.401446] (-) TimerEvent: {}
+[0.501039] (my_node_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.501561] (-) TimerEvent: {}
+[0.602151] (-) TimerEvent: {}
+[0.703012] (-) TimerEvent: {}
+[0.803622] (-) TimerEvent: {}
+[0.904164] (-) TimerEvent: {}
+[1.004996] (-) TimerEvent: {}
+[1.105810] (-) TimerEvent: {}
+[1.206418] (-) TimerEvent: {}
+[1.307063] (-) TimerEvent: {}
+[1.407712] (-) TimerEvent: {}
+[1.508434] (-) TimerEvent: {}
+[1.569372] (my_node_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.608704] (-) TimerEvent: {}
+[1.709517] (-) TimerEvent: {}
+[1.810440] (-) TimerEvent: {}
+[1.911299] (-) TimerEvent: {}
+[2.012131] (-) TimerEvent: {}
+[2.113064] (-) TimerEvent: {}
+[2.213824] (-) TimerEvent: {}
+[2.315554] (-) TimerEvent: {}
+[2.416489] (-) TimerEvent: {}
+[2.469781] (my_node_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.516820] (-) TimerEvent: {}
+[2.617833] (-) TimerEvent: {}
+[2.719019] (-) TimerEvent: {}
+[2.819946] (-) TimerEvent: {}
+[2.920923] (-) TimerEvent: {}
+[2.940043] (my_node_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.962355] (my_node_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.963966] (my_node_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.965816] (my_node_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.021290] (-) TimerEvent: {}
+[3.100368] (my_node_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.121484] (-) TimerEvent: {}
+[3.222021] (-) TimerEvent: {}
+[3.322554] (-) TimerEvent: {}
+[3.423336] (-) TimerEvent: {}
+[3.511982] (my_node_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.523624] (-) TimerEvent: {}
+[3.525655] (my_node_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.526302] (my_node_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.527237] (my_node_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.558540] (my_node_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.623863] (-) TimerEvent: {}
+[3.724441] (-) TimerEvent: {}
+[3.852991] (-) TimerEvent: {}
+[3.882186] (my_node_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[3.953195] (-) TimerEvent: {}
+[4.053757] (-) TimerEvent: {}
+[4.121447] (my_node_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[4.153978] (-) TimerEvent: {}
+[4.254949] (-) TimerEvent: {}
+[4.355467] (-) TimerEvent: {}
+[4.456500] (-) TimerEvent: {}
+[4.459452] (my_node_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[4.497488] (my_node_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[4.550126] (my_node_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.556660] (-) TimerEvent: {}
+[4.603205] (my_node_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.656903] (-) TimerEvent: {}
+[4.757973] (-) TimerEvent: {}
+[4.815092] (my_node_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[4.828179] (my_node_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.858186] (-) TimerEvent: {}
+[4.958740] (-) TimerEvent: {}
+[5.015592] (my_node_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[5.058966] (-) TimerEvent: {}
+[5.159625] (-) TimerEvent: {}
+[5.260279] (-) TimerEvent: {}
+[5.292214] (my_node_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[5.360515] (-) TimerEvent: {}
+[5.451895] (my_node_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.460718] (-) TimerEvent: {}
+[5.561388] (-) TimerEvent: {}
+[5.662051] (-) TimerEvent: {}
+[5.762624] (-) TimerEvent: {}
+[5.863175] (-) TimerEvent: {}
+[5.876261] (my_node_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[5.963415] (-) TimerEvent: {}
+[6.064142] (-) TimerEvent: {}
+[6.105362] (my_node_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.106346] (my_node_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[6.106782] (my_node_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.111755] (my_node_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.115940] (my_node_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.116317] (my_node_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.118285] (my_node_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.124256] (my_node_cpp) StdoutLine: {'line': b'-- Configuring done (6.0s)\n'}
+[6.147215] (my_node_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[6.158009] (my_node_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/mfauzi/ch3/my_node/build/my_node_cpp\n'}
+[6.164362] (-) TimerEvent: {}
+[6.180394] (my_node_cpp) CommandEnded: {'returncode': 0}
+[6.182963] (my_node_cpp) JobProgress: {'identifier': 'my_node_cpp', 'progress': 'build'}
+[6.186102] (my_node_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mfauzi/ch3/my_node/build/my_node_cpp', '--', '-j8', '-l8'], 'cwd': '/home/mfauzi/ch3/my_node/build/my_node_cpp', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mfauzi', 'GIT_ASKPASS': '/home/mfauzi/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{c2635802-5392-5d8d-acdf-c47c61b18d1b}', 'HOME': '/home/mfauzi', 'OLDPWD': '/home/mfauzi/ch3/my_node/src', 'TERM_PROGRAM_VERSION': '1.114.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b2952b51-4fb0-4dd6-8ce2-9c939e4712f3.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mfauzi/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/mfauzi/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mfauzi', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/1842_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/mfauzi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/mfauzi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/mfauzi/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/mfrob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mfrob/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '8476bdb4-4ce2-4679-8638-97cc82fc39e6', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/mfauzi/.vscode-server/data/User/workspaceStorage/ab33794a7748e7dc6de6ed32c56834a9/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6573b812eb.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mfauzi/ch3/my_node/build/my_node_cpp', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[6.257705] (my_node_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/minimal_node.dir/src/minimal_node.cpp.o\x1b[0m\n'}
+[6.264573] (-) TimerEvent: {}
+[6.365176] (-) TimerEvent: {}
+[6.465720] (-) TimerEvent: {}
+[6.566488] (-) TimerEvent: {}
+[6.667023] (-) TimerEvent: {}
+[6.767717] (-) TimerEvent: {}
+[6.868490] (-) TimerEvent: {}
+[6.969117] (-) TimerEvent: {}
+[7.069710] (-) TimerEvent: {}
+[7.170311] (-) TimerEvent: {}
+[7.270840] (-) TimerEvent: {}
+[7.371361] (-) TimerEvent: {}
+[7.472042] (-) TimerEvent: {}
+[7.572724] (-) TimerEvent: {}
+[7.673328] (-) TimerEvent: {}
+[7.773945] (-) TimerEvent: {}
+[7.874500] (-) TimerEvent: {}
+[7.975163] (-) TimerEvent: {}
+[8.075748] (-) TimerEvent: {}
+[8.176570] (-) TimerEvent: {}
+[8.277153] (-) TimerEvent: {}
+[8.377776] (-) TimerEvent: {}
+[8.478403] (-) TimerEvent: {}
+[8.579199] (-) TimerEvent: {}
+[8.680063] (-) TimerEvent: {}
+[8.780875] (-) TimerEvent: {}
+[8.882085] (-) TimerEvent: {}
+[8.983602] (-) TimerEvent: {}
+[9.084935] (-) TimerEvent: {}
+[9.187663] (-) TimerEvent: {}
+[9.288644] (-) TimerEvent: {}
+[9.389627] (-) TimerEvent: {}
+[9.490530] (-) TimerEvent: {}
+[9.591468] (-) TimerEvent: {}
+[9.692564] (-) TimerEvent: {}
+[9.793511] (-) TimerEvent: {}
+[9.894203] (-) TimerEvent: {}
+[9.994928] (-) TimerEvent: {}
+[10.096019] (-) TimerEvent: {}
+[10.197068] (-) TimerEvent: {}
+[10.297755] (-) TimerEvent: {}
+[10.398454] (-) TimerEvent: {}
+[10.499354] (-) TimerEvent: {}
+[10.600183] (-) TimerEvent: {}
+[10.700990] (-) TimerEvent: {}
+[10.801767] (-) TimerEvent: {}
+[10.902373] (-) TimerEvent: {}
+[11.002943] (-) TimerEvent: {}
+[11.103635] (-) TimerEvent: {}
+[11.204310] (-) TimerEvent: {}
+[11.304887] (-) TimerEvent: {}
+[11.405516] (-) TimerEvent: {}
+[11.506008] (-) TimerEvent: {}
+[11.606697] (-) TimerEvent: {}
+[11.707307] (-) TimerEvent: {}
+[11.808170] (-) TimerEvent: {}
+[11.908854] (-) TimerEvent: {}
+[12.009440] (-) TimerEvent: {}
+[12.110096] (-) TimerEvent: {}
+[12.210746] (-) TimerEvent: {}
+[12.311418] (-) TimerEvent: {}
+[12.412437] (-) TimerEvent: {}
+[12.513009] (-) TimerEvent: {}
+[12.613599] (-) TimerEvent: {}
+[12.660962] (my_node_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable minimal_node\x1b[0m\n'}
+[12.713846] (-) TimerEvent: {}
+[12.814642] (-) TimerEvent: {}
+[12.915228] (-) TimerEvent: {}
+[13.015909] (-) TimerEvent: {}
+[13.028015] (my_node_cpp) StdoutLine: {'line': b'[100%] Built target minimal_node\n'}
+[13.054549] (my_node_cpp) CommandEnded: {'returncode': 0}
+[13.059264] (my_node_cpp) JobProgress: {'identifier': 'my_node_cpp', 'progress': 'install'}
+[13.076091] (my_node_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mfauzi/ch3/my_node/build/my_node_cpp'], 'cwd': '/home/mfauzi/ch3/my_node/build/my_node_cpp', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mfauzi', 'GIT_ASKPASS': '/home/mfauzi/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'WT_PROFILE_ID': '{c2635802-5392-5d8d-acdf-c47c61b18d1b}', 'HOME': '/home/mfauzi', 'OLDPWD': '/home/mfauzi/ch3/my_node/src', 'TERM_PROGRAM_VERSION': '1.114.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b2952b51-4fb0-4dd6-8ce2-9c939e4712f3.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/mfauzi/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/mfauzi/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-24.04', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mfauzi', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/1842_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/home/mfauzi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/mfauzi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/mfauzi/.vscode-server/bin/e7fb5e96c0730b9deb70b33781f98e2f35975036/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python313/Scripts/:/mnt/c/Python313/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/mfrob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mfrob/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'WT_SESSION': '8476bdb4-4ce2-4679-8638-97cc82fc39e6', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/home/mfauzi/.vscode-server/data/User/workspaceStorage/ab33794a7748e7dc6de6ed32c56834a9/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-6573b812eb.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/mfauzi/ch3/my_node/build/my_node_cpp', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'}), 'shell': False}
+[13.090406] (my_node_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.092539] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/share/ament_index/resource_index/package_run_dependencies/my_node_cpp\n'}
+[13.093553] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/share/ament_index/resource_index/parent_prefix_path/my_node_cpp\n'}
+[13.094587] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/share/my_node_cpp/environment/ament_prefix_path.sh\n'}
+[13.095025] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/share/my_node_cpp/environment/ament_prefix_path.dsv\n'}
+[13.095473] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/share/my_node_cpp/environment/path.sh\n'}
+[13.096055] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/share/my_node_cpp/environment/path.dsv\n'}
+[13.096952] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/share/my_node_cpp/local_setup.bash\n'}
+[13.097430] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/share/my_node_cpp/local_setup.sh\n'}
+[13.097842] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/share/my_node_cpp/local_setup.zsh\n'}
+[13.098299] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/share/my_node_cpp/local_setup.dsv\n'}
+[13.099221] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/share/my_node_cpp/package.dsv\n'}
+[13.099382] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/share/ament_index/resource_index/packages/my_node_cpp\n'}
+[13.099457] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/share/my_node_cpp/cmake/my_node_cppConfig.cmake\n'}
+[13.099878] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/share/my_node_cpp/cmake/my_node_cppConfig-version.cmake\n'}
+[13.100530] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/share/my_node_cpp/package.xml\n'}
+[13.101608] (my_node_cpp) StdoutLine: {'line': b'-- Installing: /home/mfauzi/ch3/my_node/install/my_node_cpp/lib/my_node_cpp/minimal_node\n'}
+[13.102445] (my_node_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mfauzi/ch3/my_node/install/my_node_cpp/lib/my_node_cpp/minimal_node" to ""\n'}
+[13.109067] (my_node_cpp) CommandEnded: {'returncode': 0}
+[13.116228] (-) TimerEvent: {}
+[13.153421] (my_node_cpp) JobEnded: {'identifier': 'my_node_cpp', 'rc': 0}
+[13.156325] (-) EventReactorShutdown: {}
