@@ -8,6 +8,7 @@ setup.py
 ../../build/node_temp_py/node_temp_py.egg-info/requires.txt
 ../../build/node_temp_py/node_temp_py.egg-info/top_level.txt
 ../../build/node_temp_py/node_temp_py.egg-info/zip-safe
+launch/robot_bringup.launch.py
 node_temp_py/__init__.py
 node_temp_py/temp_display.py
 node_temp_py/temp_sensor.py

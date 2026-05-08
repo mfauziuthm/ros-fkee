@@ -1,0 +1,30 @@
+[1.026s] Invoking command in '/home/mfauzi/ros-fkee/ch3/ros2_ws/src/param_demo': PYTHONPATH=/home/mfauzi/ros-fkee/ch3/ros2_ws/build/param_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/ros-fkee/ch3/ros2_ws/install/param_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/param_demo build --build-base /home/mfauzi/ros-fkee/ch3/ros2_ws/build/param_demo/build install --record /home/mfauzi/ros-fkee/ch3/ros2_ws/build/param_demo/install.log --single-version-externally-managed install_data
+[1.191s] running egg_info
+[1.205s] writing ../../build/param_demo/param_demo.egg-info/PKG-INFO
+[1.205s] writing dependency_links to ../../build/param_demo/param_demo.egg-info/dependency_links.txt
+[1.205s] writing entry points to ../../build/param_demo/param_demo.egg-info/entry_points.txt
+[1.206s] writing requirements to ../../build/param_demo/param_demo.egg-info/requires.txt
+[1.206s] writing top-level names to ../../build/param_demo/param_demo.egg-info/top_level.txt
+[1.230s] reading manifest file '../../build/param_demo/param_demo.egg-info/SOURCES.txt'
+[1.231s] writing manifest file '../../build/param_demo/param_demo.egg-info/SOURCES.txt'
+[1.231s] running build
+[1.231s] running build_py
+[1.232s] running install
+[1.236s] running install_lib
+[1.251s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/install/param_demo/lib/python3.12/site-packages/param_demo
+[1.251s] copying /home/mfauzi/ros-fkee/ch3/ros2_ws/build/param_demo/build/lib/param_demo/param_node.py -> /home/mfauzi/ros-fkee/ch3/ros2_ws/install/param_demo/lib/python3.12/site-packages/param_demo
+[1.251s] copying /home/mfauzi/ros-fkee/ch3/ros2_ws/build/param_demo/build/lib/param_demo/__init__.py -> /home/mfauzi/ros-fkee/ch3/ros2_ws/install/param_demo/lib/python3.12/site-packages/param_demo
+[1.252s] byte-compiling /home/mfauzi/ros-fkee/ch3/ros2_ws/install/param_demo/lib/python3.12/site-packages/param_demo/param_node.py to param_node.cpython-312.pyc
+[1.253s] byte-compiling /home/mfauzi/ros-fkee/ch3/ros2_ws/install/param_demo/lib/python3.12/site-packages/param_demo/__init__.py to __init__.cpython-312.pyc
+[1.253s] running install_data
+[1.253s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/install/param_demo/share/ament_index
+[1.253s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/install/param_demo/share/ament_index/resource_index
+[1.254s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/install/param_demo/share/ament_index/resource_index/packages
+[1.254s] copying resource/param_demo -> /home/mfauzi/ros-fkee/ch3/ros2_ws/install/param_demo/share/ament_index/resource_index/packages
+[1.254s] copying package.xml -> /home/mfauzi/ros-fkee/ch3/ros2_ws/install/param_demo/share/param_demo
+[1.254s] running install_egg_info
+[1.271s] Copying ../../build/param_demo/param_demo.egg-info to /home/mfauzi/ros-fkee/ch3/ros2_ws/install/param_demo/lib/python3.12/site-packages/param_demo-0.0.0-py3.12.egg-info
+[1.273s] running install_scripts
+[1.360s] Installing param_node script to /home/mfauzi/ros-fkee/ch3/ros2_ws/install/param_demo/lib/param_demo
+[1.360s] writing list of installed files to '/home/mfauzi/ros-fkee/ch3/ros2_ws/build/param_demo/install.log'
+[1.408s] Invoked command in '/home/mfauzi/ros-fkee/ch3/ros2_ws/src/param_demo' returned '0': PYTHONPATH=/home/mfauzi/ros-fkee/ch3/ros2_ws/build/param_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/ros-fkee/ch3/ros2_ws/install/param_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/param_demo build --build-base /home/mfauzi/ros-fkee/ch3/ros2_ws/build/param_demo/build install --record /home/mfauzi/ros-fkee/ch3/ros2_ws/build/param_demo/install.log --single-version-externally-managed install_data

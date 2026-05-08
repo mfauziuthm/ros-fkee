@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'minimal_node = my_node_py.minimal_node:main',
+            'speed_controller = my_node_py.speed_controller:main',
         ],
     },
 )

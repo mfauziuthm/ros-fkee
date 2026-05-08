@@ -1,0 +1,2 @@
+[console_scripts]
+speed_controller = param_demo.speed_controller:main

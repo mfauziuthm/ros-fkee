@@ -1,0 +1,35 @@
+[1.610s] Invoking command in '/home/mfauzi/ros-fkee/ch3/ros2_ws/src/node_temp_py': PYTHONPATH=/home/mfauzi/ros-fkee/ch3/ros2_ws/build/node_temp_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node_temp_py build --build-base /home/mfauzi/ros-fkee/ch3/ros2_ws/build/node_temp_py/build install --record /home/mfauzi/ros-fkee/ch3/ros2_ws/build/node_temp_py/install.log --single-version-externally-managed install_data
+[1.818s] running egg_info
+[1.833s] writing ../../build/node_temp_py/node_temp_py.egg-info/PKG-INFO
+[1.833s] writing dependency_links to ../../build/node_temp_py/node_temp_py.egg-info/dependency_links.txt
+[1.834s] writing entry points to ../../build/node_temp_py/node_temp_py.egg-info/entry_points.txt
+[1.834s] writing requirements to ../../build/node_temp_py/node_temp_py.egg-info/requires.txt
+[1.834s] writing top-level names to ../../build/node_temp_py/node_temp_py.egg-info/top_level.txt
+[1.860s] reading manifest file '../../build/node_temp_py/node_temp_py.egg-info/SOURCES.txt'
+[1.861s] writing manifest file '../../build/node_temp_py/node_temp_py.egg-info/SOURCES.txt'
+[1.861s] running build
+[1.861s] running build_py
+[1.862s] running install
+[1.866s] running install_lib
+[1.882s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py
+[1.882s] copying /home/mfauzi/ros-fkee/ch3/ros2_ws/build/node_temp_py/build/lib/node_temp_py/temp_display.py -> /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py
+[1.883s] copying /home/mfauzi/ros-fkee/ch3/ros2_ws/build/node_temp_py/build/lib/node_temp_py/temp_sensor.py -> /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py
+[1.883s] copying /home/mfauzi/ros-fkee/ch3/ros2_ws/build/node_temp_py/build/lib/node_temp_py/__init__.py -> /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py
+[1.884s] byte-compiling /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py/temp_display.py to temp_display.cpython-312.pyc
+[1.885s] byte-compiling /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py/temp_sensor.py to temp_sensor.cpython-312.pyc
+[1.886s] byte-compiling /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py/__init__.py to __init__.cpython-312.pyc
+[1.886s] running install_data
+[1.886s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/share/ament_index
+[1.886s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/share/ament_index/resource_index
+[1.886s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/share/ament_index/resource_index/packages
+[1.887s] copying resource/node_temp_py -> /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/share/ament_index/resource_index/packages
+[1.887s] copying package.xml -> /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/share/node_temp_py
+[1.888s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/share/node_temp_py/launch
+[1.889s] copying launch/robot_bringup.launch.py -> /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/share/node_temp_py/launch
+[1.889s] running install_egg_info
+[1.908s] Copying ../../build/node_temp_py/node_temp_py.egg-info to /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/lib/python3.12/site-packages/node_temp_py-0.0.0-py3.12.egg-info
+[1.909s] running install_scripts
+[2.015s] Installing temp_display script to /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/lib/node_temp_py
+[2.016s] Installing temp_sensor script to /home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/lib/node_temp_py
+[2.017s] writing list of installed files to '/home/mfauzi/ros-fkee/ch3/ros2_ws/build/node_temp_py/install.log'
+[2.059s] Invoked command in '/home/mfauzi/ros-fkee/ch3/ros2_ws/src/node_temp_py' returned '0': PYTHONPATH=/home/mfauzi/ros-fkee/ch3/ros2_ws/build/node_temp_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/ros-fkee/ch3/ros2_ws/install/node_temp_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/node_temp_py build --build-base /home/mfauzi/ros-fkee/ch3/ros2_ws/build/node_temp_py/build install --record /home/mfauzi/ros-fkee/ch3/ros2_ws/build/node_temp_py/install.log --single-version-externally-managed install_data
