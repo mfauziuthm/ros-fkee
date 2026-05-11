@@ -1,0 +1,18 @@
+[0.692s] Invoking command in '/home/mfauzi/ros-fkee/ch3/ros2_ws/src/my_robot_bringup': PYTHONPATH=/home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_bringup build --build-base /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/build install --record /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/install.log --single-version-externally-managed install_data
+[0.819s] running egg_info
+[0.826s] writing ../../build/my_robot_bringup/my_robot_bringup.egg-info/PKG-INFO
+[0.827s] writing dependency_links to ../../build/my_robot_bringup/my_robot_bringup.egg-info/dependency_links.txt
+[0.827s] writing requirements to ../../build/my_robot_bringup/my_robot_bringup.egg-info/requires.txt
+[0.827s] writing top-level names to ../../build/my_robot_bringup/my_robot_bringup.egg-info/top_level.txt
+[0.843s] reading manifest file '../../build/my_robot_bringup/my_robot_bringup.egg-info/SOURCES.txt'
+[0.845s] writing manifest file '../../build/my_robot_bringup/my_robot_bringup.egg-info/SOURCES.txt'
+[0.845s] running build
+[0.845s] running build_py
+[0.845s] running install
+[0.848s] running install_lib
+[0.856s] running install_data
+[0.856s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch
+[0.856s] copying launch/my_robot.launch.py -> /home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch
+[0.857s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/config
+[0.857s] error: can't copy 'config/my_robot_params.yaml': doesn't exist or not a regular file
+[0.870s] Invoked command in '/home/mfauzi/ros-fkee/ch3/ros2_ws/src/my_robot_bringup' returned '1': PYTHONPATH=/home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_bringup build --build-base /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/build install --record /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/install.log --single-version-externally-managed install_data

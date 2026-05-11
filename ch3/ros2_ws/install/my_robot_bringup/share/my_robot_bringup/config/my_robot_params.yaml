@@ -1,0 +1,6 @@
+talker:
+  ros__parameters:
+    publish_rate: 5   # Hz
+listener:
+  ros__parameters:
+    output_topic: "/processed_chatter"

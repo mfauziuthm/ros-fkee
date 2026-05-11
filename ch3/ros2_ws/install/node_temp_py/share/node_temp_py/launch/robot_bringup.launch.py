@@ -5,7 +5,7 @@ def generate_launch_description():
     return LaunchDescription([
         # Launch the Sensor Node (Publisher)
         Node(
-            package='node_temp_py',        # The package where the node lives
+            package='node_temp_py',      # The package where the node lives
             executable='temp_sensor',    # The executable name (from setup.py)
             name='temperature_sensor',   # (Optional) Rename the node on the fly
             output='screen'              # Ensure the node's print statements show in the terminal

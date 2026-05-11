@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: my-robot-bringup
+Version: 0.0.0
+Summary: Bringup package with launch files
+Maintainer: yourname
+Maintainer-email: you@example.com
+License: Apache License 2.0

@@ -1,0 +1,22 @@
+[1.268s] Invoking command in '/home/mfauzi/ros-fkee/ch3/ros2_ws/src/my_node_py': PYTHONPATH=/home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_node_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_node_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_node_py build --build-base /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_node_py/build install --record /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_node_py/install.log --single-version-externally-managed install_data
+[1.433s] running egg_info
+[1.444s] writing ../../build/my_node_py/my_node_py.egg-info/PKG-INFO
+[1.445s] writing dependency_links to ../../build/my_node_py/my_node_py.egg-info/dependency_links.txt
+[1.445s] writing entry points to ../../build/my_node_py/my_node_py.egg-info/entry_points.txt
+[1.446s] writing requirements to ../../build/my_node_py/my_node_py.egg-info/requires.txt
+[1.446s] writing top-level names to ../../build/my_node_py/my_node_py.egg-info/top_level.txt
+[1.469s] reading manifest file '../../build/my_node_py/my_node_py.egg-info/SOURCES.txt'
+[1.470s] writing manifest file '../../build/my_node_py/my_node_py.egg-info/SOURCES.txt'
+[1.470s] running build
+[1.470s] running build_py
+[1.470s] running install
+[1.475s] running install_lib
+[1.490s] running install_data
+[1.490s] running install_egg_info
+[1.501s] removing '/home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_node_py/lib/python3.12/site-packages/my_node_py-0.0.0-py3.12.egg-info' (and everything under it)
+[1.501s] Copying ../../build/my_node_py/my_node_py.egg-info to /home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_node_py/lib/python3.12/site-packages/my_node_py-0.0.0-py3.12.egg-info
+[1.503s] running install_scripts
+[1.583s] Installing minimal_node script to /home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_node_py/lib/my_node_py
+[1.583s] Installing speed_controller script to /home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_node_py/lib/my_node_py
+[1.583s] writing list of installed files to '/home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_node_py/install.log'
+[1.615s] Invoked command in '/home/mfauzi/ros-fkee/ch3/ros2_ws/src/my_node_py' returned '0': PYTHONPATH=/home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_node_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_node_py/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_node_py build --build-base /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_node_py/build install --record /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_node_py/install.log --single-version-externally-managed install_data

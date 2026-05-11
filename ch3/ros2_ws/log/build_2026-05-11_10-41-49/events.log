@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.002268] (-) JobUnselected: {'identifier': 'my_node_py'}
+[0.002340] (-) JobUnselected: {'identifier': 'node_temp_py'}
+[0.002368] (-) EventReactorShutdown: {}

@@ -1,0 +1,32 @@
+[1.359s] Invoking command in '/home/mfauzi/ros-fkee/ch3/ros2_ws/src/my_robot_bringup': PYTHONPATH=/home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_bringup build --build-base /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/build install --record /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/install.log --single-version-externally-managed install_data
+[1.554s] running egg_info
+[1.554s] creating ../../build/my_robot_bringup/my_robot_bringup.egg-info
+[1.567s] writing ../../build/my_robot_bringup/my_robot_bringup.egg-info/PKG-INFO
+[1.568s] writing dependency_links to ../../build/my_robot_bringup/my_robot_bringup.egg-info/dependency_links.txt
+[1.568s] writing requirements to ../../build/my_robot_bringup/my_robot_bringup.egg-info/requires.txt
+[1.568s] writing top-level names to ../../build/my_robot_bringup/my_robot_bringup.egg-info/top_level.txt
+[1.569s] writing manifest file '../../build/my_robot_bringup/my_robot_bringup.egg-info/SOURCES.txt'
+[1.590s] reading manifest file '../../build/my_robot_bringup/my_robot_bringup.egg-info/SOURCES.txt'
+[1.591s] writing manifest file '../../build/my_robot_bringup/my_robot_bringup.egg-info/SOURCES.txt'
+[1.591s] running build
+[1.591s] running build_py
+[1.591s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/build
+[1.592s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/build/lib
+[1.592s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/build/lib/my_robot_bringup
+[1.593s] copying my_robot_bringup/__init__.py -> /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/build/lib/my_robot_bringup
+[1.593s] running install
+[1.597s] running install_lib
+[1.606s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages/my_robot_bringup
+[1.607s] copying /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/build/lib/my_robot_bringup/__init__.py -> /home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages/my_robot_bringup
+[1.608s] byte-compiling /home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages/my_robot_bringup/__init__.py to __init__.cpython-312.pyc
+[1.609s] running install_data
+[1.609s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/share/ament_index
+[1.609s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index
+[1.610s] creating /home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages
+[1.610s] copying resource/my_robot_bringup -> /home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/packages
+[1.610s] copying package.xml -> /home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/share/my_robot_bringup
+[1.611s] running install_egg_info
+[1.622s] Copying ../../build/my_robot_bringup/my_robot_bringup.egg-info to /home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages/my_robot_bringup-0.0.0-py3.12.egg-info
+[1.626s] running install_scripts
+[1.696s] writing list of installed files to '/home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/install.log'
+[1.722s] Invoked command in '/home/mfauzi/ros-fkee/ch3/ros2_ws/src/my_robot_bringup' returned '0': PYTHONPATH=/home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/ros-fkee/ch3/ros2_ws/install/my_robot_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_bringup build --build-base /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/build install --record /home/mfauzi/ros-fkee/ch3/ros2_ws/build/my_robot_bringup/install.log --single-version-externally-managed install_data
