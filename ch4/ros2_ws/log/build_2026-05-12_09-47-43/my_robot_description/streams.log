@@ -1,0 +1,32 @@
+[0.450s] Invoking command in '/home/mfauzi/ros-fkee/ch4/ros2_ws/src/my_robot_description': PYTHONPATH=/home/mfauzi/ros-fkee/ch4/ros2_ws/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_description build --build-base /home/mfauzi/ros-fkee/ch4/ros2_ws/build/my_robot_description/build install --record /home/mfauzi/ros-fkee/ch4/ros2_ws/build/my_robot_description/install.log --single-version-externally-managed install_data
+[0.572s] running egg_info
+[0.572s] creating ../../build/my_robot_description/my_robot_description.egg-info
+[0.580s] writing ../../build/my_robot_description/my_robot_description.egg-info/PKG-INFO
+[0.581s] writing dependency_links to ../../build/my_robot_description/my_robot_description.egg-info/dependency_links.txt
+[0.581s] writing requirements to ../../build/my_robot_description/my_robot_description.egg-info/requires.txt
+[0.581s] writing top-level names to ../../build/my_robot_description/my_robot_description.egg-info/top_level.txt
+[0.581s] writing manifest file '../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[0.597s] reading manifest file '../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[0.597s] writing manifest file '../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt'
+[0.598s] running build
+[0.598s] running build_py
+[0.598s] creating /home/mfauzi/ros-fkee/ch4/ros2_ws/build/my_robot_description/build
+[0.598s] creating /home/mfauzi/ros-fkee/ch4/ros2_ws/build/my_robot_description/build/lib
+[0.598s] creating /home/mfauzi/ros-fkee/ch4/ros2_ws/build/my_robot_description/build/lib/my_robot_description
+[0.598s] copying my_robot_description/__init__.py -> /home/mfauzi/ros-fkee/ch4/ros2_ws/build/my_robot_description/build/lib/my_robot_description
+[0.598s] running install
+[0.601s] running install_lib
+[0.610s] creating /home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[0.611s] copying /home/mfauzi/ros-fkee/ch4/ros2_ws/build/my_robot_description/build/lib/my_robot_description/__init__.py -> /home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description
+[0.611s] byte-compiling /home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/__init__.py to __init__.cpython-312.pyc
+[0.611s] running install_data
+[0.611s] creating /home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/share/ament_index
+[0.611s] creating /home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/share/ament_index/resource_index
+[0.611s] creating /home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages
+[0.612s] copying resource/my_robot_description -> /home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages
+[0.612s] copying package.xml -> /home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/share/my_robot_description
+[0.612s] running install_egg_info
+[0.621s] Copying ../../build/my_robot_description/my_robot_description.egg-info to /home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info
+[0.622s] running install_scripts
+[0.681s] writing list of installed files to '/home/mfauzi/ros-fkee/ch4/ros2_ws/build/my_robot_description/install.log'
+[0.700s] Invoked command in '/home/mfauzi/ros-fkee/ch4/ros2_ws/src/my_robot_description' returned '0': PYTHONPATH=/home/mfauzi/ros-fkee/ch4/ros2_ws/build/my_robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_description build --build-base /home/mfauzi/ros-fkee/ch4/ros2_ws/build/my_robot_description/build install --record /home/mfauzi/ros-fkee/ch4/ros2_ws/build/my_robot_description/install.log --single-version-externally-managed install_data
