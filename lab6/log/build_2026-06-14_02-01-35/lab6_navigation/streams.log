@@ -1,0 +1,31 @@
+[0.017s] Invoking command in '/home/mfauzi/lab6/build/lab6_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mfauzi/mfLab5/install/lab5_simulation:/home/mfauzi/lab5/install/lab5_simulation:/home/mfauzi/linorobot2_ws/install/linorobot2_gazebo:/opt/ros/jazzy /usr/bin/cmake --build /home/mfauzi/lab6/build/lab6_navigation -- -j24 -l24
+[0.060s] Invoked command in '/home/mfauzi/lab6/build/lab6_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mfauzi/mfLab5/install/lab5_simulation:/home/mfauzi/lab5/install/lab5_simulation:/home/mfauzi/linorobot2_ws/install/linorobot2_gazebo:/opt/ros/jazzy /usr/bin/cmake --build /home/mfauzi/lab6/build/lab6_navigation -- -j24 -l24
+[0.070s] Invoking command in '/home/mfauzi/lab6/build/lab6_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mfauzi/mfLab5/install/lab5_simulation:/home/mfauzi/lab5/install/lab5_simulation:/home/mfauzi/linorobot2_ws/install/linorobot2_gazebo:/opt/ros/jazzy /usr/bin/cmake --install /home/mfauzi/lab6/build/lab6_navigation
+[0.078s] -- Install configuration: ""
+[0.078s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/launch
+[0.078s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/launch/auto_nav.launch.py
+[0.079s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/launch/sim.launch.py
+[0.079s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/launch/slam.launch.py
+[0.079s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/urdf
+[0.079s] -- Installing: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/urdf/my_robot.urdf.xacro
+[0.080s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/rviz
+[0.080s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/worlds
+[0.081s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/maps
+[0.081s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/config
+[0.082s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/config/nav2_params.yaml
+[0.082s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/ament_index/resource_index/package_run_dependencies/lab6_navigation
+[0.082s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/ament_index/resource_index/parent_prefix_path/lab6_navigation
+[0.083s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/environment/ament_prefix_path.sh
+[0.083s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/environment/ament_prefix_path.dsv
+[0.084s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/environment/path.sh
+[0.084s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/environment/path.dsv
+[0.085s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/local_setup.bash
+[0.085s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/local_setup.sh
+[0.086s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/local_setup.zsh
+[0.087s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/local_setup.dsv
+[0.087s] -- Installing: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/package.dsv
+[0.087s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/ament_index/resource_index/packages/lab6_navigation
+[0.087s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/cmake/lab6_navigationConfig.cmake
+[0.087s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/cmake/lab6_navigationConfig-version.cmake
+[0.087s] -- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/package.xml
+[0.088s] Invoked command in '/home/mfauzi/lab6/build/lab6_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mfauzi/mfLab5/install/lab5_simulation:/home/mfauzi/lab5/install/lab5_simulation:/home/mfauzi/linorobot2_ws/install/linorobot2_gazebo:/opt/ros/jazzy /usr/bin/cmake --install /home/mfauzi/lab6/build/lab6_navigation

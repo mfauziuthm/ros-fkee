@@ -1,0 +1,4 @@
+source;share/lab6_navigation/local_setup.bash
+source;share/lab6_navigation/local_setup.dsv
+source;share/lab6_navigation/local_setup.sh
+source;share/lab6_navigation/local_setup.zsh

@@ -1,0 +1,9 @@
+/home/mfauzi/lab6/build/lab6_navigation/CMakeFiles/uninstall.dir
+/home/mfauzi/lab6/build/lab6_navigation/CMakeFiles/lab6_navigation_uninstall.dir
+/home/mfauzi/lab6/build/lab6_navigation/CMakeFiles/test.dir
+/home/mfauzi/lab6/build/lab6_navigation/CMakeFiles/edit_cache.dir
+/home/mfauzi/lab6/build/lab6_navigation/CMakeFiles/rebuild_cache.dir
+/home/mfauzi/lab6/build/lab6_navigation/CMakeFiles/list_install_components.dir
+/home/mfauzi/lab6/build/lab6_navigation/CMakeFiles/install.dir
+/home/mfauzi/lab6/build/lab6_navigation/CMakeFiles/install/local.dir
+/home/mfauzi/lab6/build/lab6_navigation/CMakeFiles/install/strip.dir

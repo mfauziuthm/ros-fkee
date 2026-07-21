@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/lab4_2wd_robot/lab4_2wd_robot.egg-info/PKG-INFO
+../../build/lab4_2wd_robot/lab4_2wd_robot.egg-info/SOURCES.txt
+../../build/lab4_2wd_robot/lab4_2wd_robot.egg-info/dependency_links.txt
+../../build/lab4_2wd_robot/lab4_2wd_robot.egg-info/requires.txt
+../../build/lab4_2wd_robot/lab4_2wd_robot.egg-info/top_level.txt
+../../build/lab4_2wd_robot/lab4_2wd_robot.egg-info/zip-safe
+lab4_2wd_robot/__init__.py
+launch/display.launch.py
+resource/lab4_2wd_robot
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+urdf/diff_bot.urdf

@@ -1,0 +1,27 @@
+-- Install configuration: ""
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/launch
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/launch/auto_nav.launch.py
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/launch/sim.launch.py
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/launch/slam.launch.py
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/urdf
+-- Installing: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/urdf/my_robot.urdf.xacro
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/rviz
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/worlds
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/maps
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/config
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/config/nav2_params.yaml
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/ament_index/resource_index/package_run_dependencies/lab6_navigation
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/ament_index/resource_index/parent_prefix_path/lab6_navigation
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/environment/path.sh
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/environment/path.dsv
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/local_setup.bash
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/local_setup.sh
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/local_setup.zsh
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/local_setup.dsv
+-- Installing: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/package.dsv
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/ament_index/resource_index/packages/lab6_navigation
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/cmake/lab6_navigationConfig.cmake
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/cmake/lab6_navigationConfig-version.cmake
+-- Up-to-date: /home/mfauzi/lab6/install/lab6_navigation/share/lab6_navigation/package.xml

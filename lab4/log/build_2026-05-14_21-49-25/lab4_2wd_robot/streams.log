@@ -1,0 +1,20 @@
+[0.734s] Invoking command in '/home/mfauzi/lab-activity/lab4_g/src/lab4_2wd_robot': PYTHONPATH=/home/mfauzi/lab-activity/lab4_g/build/lab4_2wd_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/lab-activity/lab4_g/install/lab4_2wd_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab4_2wd_robot build --build-base /home/mfauzi/lab-activity/lab4_g/build/lab4_2wd_robot/build install --record /home/mfauzi/lab-activity/lab4_g/build/lab4_2wd_robot/install.log --single-version-externally-managed install_data
+[0.937s] running egg_info
+[0.949s] writing ../../build/lab4_2wd_robot/lab4_2wd_robot.egg-info/PKG-INFO
+[0.950s] writing dependency_links to ../../build/lab4_2wd_robot/lab4_2wd_robot.egg-info/dependency_links.txt
+[0.950s] writing requirements to ../../build/lab4_2wd_robot/lab4_2wd_robot.egg-info/requires.txt
+[0.950s] writing top-level names to ../../build/lab4_2wd_robot/lab4_2wd_robot.egg-info/top_level.txt
+[0.978s] reading manifest file '../../build/lab4_2wd_robot/lab4_2wd_robot.egg-info/SOURCES.txt'
+[0.979s] writing manifest file '../../build/lab4_2wd_robot/lab4_2wd_robot.egg-info/SOURCES.txt'
+[0.980s] running build
+[0.980s] running build_py
+[0.980s] running install
+[0.985s] running install_lib
+[0.996s] running install_data
+[0.996s] copying launch/display.launch.py -> /home/mfauzi/lab-activity/lab4_g/install/lab4_2wd_robot/share/lab4_2wd_robot/launch
+[0.996s] running install_egg_info
+[1.008s] removing '/home/mfauzi/lab-activity/lab4_g/install/lab4_2wd_robot/lib/python3.12/site-packages/lab4_2wd_robot-0.0.0-py3.12.egg-info' (and everything under it)
+[1.008s] Copying ../../build/lab4_2wd_robot/lab4_2wd_robot.egg-info to /home/mfauzi/lab-activity/lab4_g/install/lab4_2wd_robot/lib/python3.12/site-packages/lab4_2wd_robot-0.0.0-py3.12.egg-info
+[1.010s] running install_scripts
+[1.092s] writing list of installed files to '/home/mfauzi/lab-activity/lab4_g/build/lab4_2wd_robot/install.log'
+[1.118s] Invoked command in '/home/mfauzi/lab-activity/lab4_g/src/lab4_2wd_robot' returned '0': PYTHONPATH=/home/mfauzi/lab-activity/lab4_g/build/lab4_2wd_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/lab-activity/lab4_g/install/lab4_2wd_robot/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab4_2wd_robot build --build-base /home/mfauzi/lab-activity/lab4_g/build/lab4_2wd_robot/build install --record /home/mfauzi/lab-activity/lab4_g/build/lab4_2wd_robot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,24 @@
+[0.474s] Invoking command in '/home/mfauzi/lab5/src/lab5_simulation': PYTHONPATH=/home/mfauzi/lab5/build/lab5_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/lab5/install/lab5_simulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab5_simulation build --build-base /home/mfauzi/lab5/build/lab5_simulation/build install --record /home/mfauzi/lab5/build/lab5_simulation/install.log --single-version-externally-managed install_data
+[0.620s] running egg_info
+[0.630s] writing ../../build/lab5_simulation/lab5_simulation.egg-info/PKG-INFO
+[0.631s] writing dependency_links to ../../build/lab5_simulation/lab5_simulation.egg-info/dependency_links.txt
+[0.631s] writing entry points to ../../build/lab5_simulation/lab5_simulation.egg-info/entry_points.txt
+[0.631s] writing requirements to ../../build/lab5_simulation/lab5_simulation.egg-info/requires.txt
+[0.631s] writing top-level names to ../../build/lab5_simulation/lab5_simulation.egg-info/top_level.txt
+[0.649s] reading manifest file '../../build/lab5_simulation/lab5_simulation.egg-info/SOURCES.txt'
+[0.650s] writing manifest file '../../build/lab5_simulation/lab5_simulation.egg-info/SOURCES.txt'
+[0.650s] running build
+[0.650s] running build_py
+[0.650s] copying lab5_simulation/timed_mover.py -> /home/mfauzi/lab5/build/lab5_simulation/build/lib/lab5_simulation
+[0.650s] running install
+[0.653s] running install_lib
+[0.662s] copying /home/mfauzi/lab5/build/lab5_simulation/build/lib/lab5_simulation/timed_mover.py -> /home/mfauzi/lab5/install/lab5_simulation/lib/python3.12/site-packages/lab5_simulation
+[0.663s] byte-compiling /home/mfauzi/lab5/install/lab5_simulation/lib/python3.12/site-packages/lab5_simulation/timed_mover.py to timed_mover.cpython-312.pyc
+[0.663s] running install_data
+[0.663s] running install_egg_info
+[0.678s] removing '/home/mfauzi/lab5/install/lab5_simulation/lib/python3.12/site-packages/lab5_simulation-0.0.0-py3.12.egg-info' (and everything under it)
+[0.678s] Copying ../../build/lab5_simulation/lab5_simulation.egg-info to /home/mfauzi/lab5/install/lab5_simulation/lib/python3.12/site-packages/lab5_simulation-0.0.0-py3.12.egg-info
+[0.678s] running install_scripts
+[0.744s] Installing timed_mover script to /home/mfauzi/lab5/install/lab5_simulation/lib/lab5_simulation
+[0.745s] writing list of installed files to '/home/mfauzi/lab5/build/lab5_simulation/install.log'
+[0.773s] Invoked command in '/home/mfauzi/lab5/src/lab5_simulation' returned '0': PYTHONPATH=/home/mfauzi/lab5/build/lab5_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mfauzi/lab5/install/lab5_simulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab5_simulation build --build-base /home/mfauzi/lab5/build/lab5_simulation/build install --record /home/mfauzi/lab5/build/lab5_simulation/install.log --single-version-externally-managed install_data

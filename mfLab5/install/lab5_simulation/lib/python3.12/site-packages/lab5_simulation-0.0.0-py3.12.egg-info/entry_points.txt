@@ -1,0 +1,2 @@
+[console_scripts]
+timed_mover = lab5_simulation.timed_mover:main

@@ -1,0 +1,280 @@
+[1mdiff --git a/ch4/ros2_ws/build/my_robot_description/colcon_command_prefix_setup_py.sh.env b/ch4/ros2_ws/build/my_robot_description/colcon_command_prefix_setup_py.sh.env[m
+[1mindex 13d82d6..820adb9 100644[m
+[1m--- a/ch4/ros2_ws/build/my_robot_description/colcon_command_prefix_setup_py.sh.env[m
+[1m+++ b/ch4/ros2_ws/build/my_robot_description/colcon_command_prefix_setup_py.sh.env[m
+[36m@@ -1,7 +1,6 @@[m
+[31m-AMENT_PREFIX_PATH=/home/mfauzi/ros-fkee/ch4/install/my_robot_description:/opt/ros/jazzy[m
+[32m+[m[32mAMENT_PREFIX_PATH=/opt/ros/jazzy[m
+ CMAKE_PREFIX_PATH=/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor[m
+ COLCON=1[m
+[31m-COLCON_PREFIX_PATH=/home/mfauzi/ros-fkee/ch4/install[m
+ DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus[m
+ DISPLAY=:0[m
+ GZ_CONFIG_PATH=/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz[m
+[36m@@ -15,11 +14,11 @@[m [mLESSOPEN=| /usr/bin/lesspipe %s[m
+ LOGNAME=mfauzi[m
+ LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:[m
+ NAME=ProART-PX13[m
+[31m-OLDPWD=/home/mfauzi/ros-fkee/ch4[m
+[32m+[m[32mOLDPWD=/home/mfauzi/ros-fkee/ch4/ros2_ws/src[m
+ PATH=/home/mfauzi/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/mfrob/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/mfrob/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin[m
+ PULSE_SERVER=unix:/mnt/wslg/PulseServer[m
+ PWD=/home/mfauzi/ros-fkee/ch4/ros2_ws/build/my_robot_description[m
+[31m-PYTHONPATH=/home/mfauzi/ros-fkee/ch4/install/my_robot_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages[m
+[32m+[m[32mPYTHONPATH=/opt/ros/jazzy/lib/python3.12/site-packages[m
+ ROS_AUTOMATIC_DISCOVERY_RANGE=SUBNET[m
+ ROS_DISTRO=jazzy[m
+ ROS_PYTHON_VERSION=3[m
+[36m@@ -32,9 +31,9 @@[m [mWAYLAND_DISPLAY=wayland-0[m
+ WSL2_GUI_APPS_ENABLED=1[m
+ WSLENV=WT_SESSION:WT_PROFILE_ID:[m
+ WSL_DISTRO_NAME=Ubuntu[m
+[31m-WSL_INTEROP=/run/WSL/462_interop[m
+[32m+[m[32mWSL_INTEROP=/run/WSL/492_interop[m
+ WT_PROFILE_ID={2c4de342-38b7-51cf-b940-2309a097f518}[m
+[31m-WT_SESSION=4fcb19f0-387b-4872-abe7-58a764e6985a[m
+[32m+[m[32mWT_SESSION=90611f41-fd40-4bb9-920e-96f9ed76bab2[m
+ XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop[m
+ XDG_RUNTIME_DIR=/run/user/1000/[m
+ _=/usr/bin/colcon[m
+[1mdiff --git a/ch4/ros2_ws/build/my_robot_description/install.log b/ch4/ros2_ws/build/my_robot_description/install.log[m
+[1mdeleted file mode 100644[m
+[1mindex 8a59726..0000000[m
+[1m--- a/ch4/ros2_ws/build/my_robot_description/install.log[m
+[1m+++ /dev/null[m
+[36m@@ -1,10 +0,0 @@[m
+[31m-/home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/__init__.py[m
+[31m-/home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/__pycache__/__init__.cpython-312.pyc[m
+[31m-/home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description[m
+[31m-/home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml[m
+[31m-/home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/SOURCES.txt[m
+[31m-/home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/zip-safe[m
+[31m-/home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/PKG-INFO[m
+[31m-/home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/top_level.txt[m
+[31m-/home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/requires.txt[m
+[31m-/home/mfauzi/ros-fkee/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/dependency_links.txt[m
+[1mdiff --git a/ch4/ros2_ws/build/my_robot_description/my_robot_description.egg-info/SOURCES.txt b/ch4/ros2_ws/build/my_robot_description/my_robot_description.egg-info/SOURCES.txt[m
+[1mindex 2ee8cac..40618de 100644[m
+[1m--- a/ch4/ros2_ws/build/my_robot_description/my_robot_description.egg-info/SOURCES.txt[m
+[1m+++ b/ch4/ros2_ws/build/my_robot_description/my_robot_description.egg-info/SOURCES.txt[m
+[36m@@ -8,7 +8,10 @@[m [msetup.py[m
+ ../../build/my_robot_description/my_robot_description.egg-info/top_level.txt[m
+ ../../build/my_robot_description/my_robot_description.egg-info/zip-safe[m
+ my_robot_description/__init__.py[m
+[31m-resource/my_robot_description[m
+[31m-test/test_copyright.py[m
+[31m-test/test_flake8.py[m
+[31m-test/test_pep257.py[m
+\ No newline at end of file[m
+[32m+[m[32mmy_robot_description.egg-info/PKG-INFO[m
+[32m+[m[32mmy_robot_description.egg-info/SOURCES.txt[m
+[32m+[m[32mmy_robot_description.egg-info/dependency_links.txt[m
+[32m+[m[32mmy_robot_description.egg-info/requires.txt[m
+[32m+[m[32mmy_robot_description.egg-info/top_level.txt[m
+[32m+[m[32mmy_robot_description.egg-info/zip-safe[m
+[32m+[m[32mresource/my_robot_description[m
+\ No newline at end of file[m
+[1mdiff --git a/ch4/ros2_ws/build/my_robot_description/prefix_override/__pycache__/sitecustomize.cpython-312.pyc b/ch4/ros2_ws/build/my_robot_description/prefix_override/__pycache__/sitecustomize.cpython-312.pyc[m
+[1mindex 669915d..b0bc0cc 100644[m
+Binary files a/ch4/ros2_ws/build/my_robot_description/prefix_override/__pycache__/sitecustomize.cpython-312.pyc and b/ch4/ros2_ws/build/my_robot_description/prefix_override/__pycache__/sitecustomize.cpython-312.pyc differ
+[1mdiff --git a/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/PKG-INFO b/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/PKG-INFO[m
+[1mdeleted file mode 100644[m
+[1mindex 112c553..0000000[m
+[1m--- a/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/PKG-INFO[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-Metadata-Version: 2.1[m
+[31m-Name: my-robot-description[m
+[31m-Version: 0.0.0[m
+[31m-Summary: TODO: Package description[m
+[31m-Maintainer: mfauzi[m
+[31m-Maintainer-email: mfauzi@uthm.edu.my[m
+[31m-License: TODO: License declaration[m
+[31m-Provides-Extra: test[m
+[1mdiff --git a/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/SOURCES.txt b/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/SOURCES.txt[m
+[1mdeleted file mode 100644[m
+[1mindex 2ee8cac..0000000[m
+[1m--- a/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/SOURCES.txt[m
+[1m+++ /dev/null[m
+[36m@@ -1,14 +0,0 @@[m
+[31m-package.xml[m
+[31m-setup.cfg[m
+[31m-setup.py[m
+[31m-../../build/my_robot_description/my_robot_description.egg-info/PKG-INFO[m
+[31m-../../build/my_robot_description/my_robot_description.egg-info/SOURCES.txt[m
+[31m-../../build/my_robot_description/my_robot_description.egg-info/dependency_links.txt[m
+[31m-../../build/my_robot_description/my_robot_description.egg-info/requires.txt[m
+[31m-../../build/my_robot_description/my_robot_description.egg-info/top_level.txt[m
+[31m-../../build/my_robot_description/my_robot_description.egg-info/zip-safe[m
+[31m-my_robot_description/__init__.py[m
+[31m-resource/my_robot_description[m
+[31m-test/test_copyright.py[m
+[31m-test/test_flake8.py[m
+[31m-test/test_pep257.py[m
+\ No newline at end of file[m
+[1mdiff --git a/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/dependency_links.txt b/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/dependency_links.txt[m
+[1mdeleted file mode 100644[m
+[1mindex 8b13789..0000000[m
+[1m--- a/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/dependency_links.txt[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-[m
+[1mdiff --git a/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/requires.txt b/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/requires.txt[m
+[1mdeleted file mode 100644[m
+[1mindex f6960fb..0000000[m
+[1m--- a/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/requires.txt[m
+[1m+++ /dev/null[m
+[36m@@ -1,4 +0,0 @@[m
+[31m-setuptools[m
+[31m-[m
+[31m-[test][m
+[31m-pytest[m
+[1mdiff --git a/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/top_level.txt b/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/top_level.txt[m
+[1mdeleted file mode 100644[m
+[1mindex 5fa3f79..0000000[m
+[1m--- a/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/top_level.txt[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-my_robot_description[m
+[1mdiff --git a/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/zip-safe b/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/zip-safe[m
+[1mdeleted file mode 100644[m
+[1mindex 8b13789..0000000[m
+[1m--- a/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description-0.0.0-py3.12.egg-info/zip-safe[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-[m
+[1mdiff --git a/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/__init__.py b/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/__init__.py[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/__pycache__/__init__.cpython-312.pyc b/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/__pycache__/__init__.cpython-312.pyc[m
+[1mdeleted file mode 100644[m
+[1mindex 9579711..0000000[m
+Binary files a/ch4/ros2_ws/install/my_robot_description/lib/python3.12/site-packages/my_robot_description/__pycache__/__init__.cpython-312.pyc and /dev/null differ
+[1mdiff --git a/ch4/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description b/ch4/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description[m
+[1mdeleted file mode 100644[m
+[1mindex e69de29..0000000[m
+[1mdiff --git a/ch4/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description b/ch4/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description[m
+[1mnew file mode 120000[m
+[1mindex 0000000..44a2469[m
+[1m--- /dev/null[m
+[1m+++ b/ch4/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m/home/mfauzi/ros-fkee/ch4/ros2_ws/build/my_robot_description/resource/my_robot_description[m
+\ No newline at end of file[m
+[1mdiff --git a/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv b/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv[m
+[1mindex ac7ecee..24d2df4 100644[m
+[1m--- a/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv[m
+[1m+++ b/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv[m
+[36m@@ -4,3 +4,6 @@[m [msource;share/my_robot_description/hook/pythonpath.sh[m
+ source;share/my_robot_description/hook/ament_prefix_path.ps1[m
+ source;share/my_robot_description/hook/ament_prefix_path.dsv[m
+ source;share/my_robot_description/hook/ament_prefix_path.sh[m
+[32m+[m[32msource;../../build/my_robot_description/share/my_robot_description/hook/pythonpath_develop.ps1[m
+[32m+[m[32msource;../../build/my_robot_description/share/my_robot_description/hook/pythonpath_develop.dsv[m
+[32m+[m[32msource;../../build/my_robot_description/share/my_robot_description/hook/pythonpath_develop.sh[m
+[1mdiff --git a/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.ps1 b/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.ps1[m
+[1mindex 710d101..2c91f88 100644[m
+[1m--- a/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.ps1[m
+[1m+++ b/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.ps1[m
+[36m@@ -112,5 +112,6 @@[m [m$env:COLCON_CURRENT_PREFIX=(Get-Item $PSCommandPath).Directory.Parent.Parent.Ful[m
+ [m
+ colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX/share/my_robot_description/hook/pythonpath.ps1"[m
+ colcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX/share/my_robot_description/hook/ament_prefix_path.ps1"[m
+[32m+[m[32mcolcon_package_source_powershell_script "$env:COLCON_CURRENT_PREFIX/../../build/my_robot_description/share/my_robot_description/hook/pythonpath_develop.ps1"[m
+ [m
+ Remove-Item Env:\COLCON_CURRENT_PREFIX[m
+[1mdiff --git a/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.sh b/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.sh[m
+[1mindex cac2f4e..c870d12 100644[m
+[1m--- a/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.sh[m
+[1m+++ b/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.sh[m
+[36m@@ -80,6 +80,7 @@[m [m_colcon_package_sh_source_script() {[m
+ # source sh hooks[m
+ _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/my_robot_description/hook/pythonpath.sh"[m
+ _colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/share/my_robot_description/hook/ament_prefix_path.sh"[m
+[32m+[m[32m_colcon_package_sh_source_script "$COLCON_CURRENT_PREFIX/../../build/my_robot_description/share/my_robot_description/hook/pythonpath_develop.sh"[m
+ [m
+ unset _colcon_package_sh_source_script[m
+ unset COLCON_CURRENT_PREFIX[m
+[1mdiff --git a/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml b/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml[m
+[1mdeleted file mode 100644[m
+[1mindex c579cc3..0000000[m
+[1m--- a/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,18 +0,0 @@[m
+[31m-<?xml version="1.0"?>[m
+[31m-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>[m
+[31m-<package format="3">[m
+[31m-  <name>my_robot_description</name>[m
+[31m-  <version>0.0.0</version>[m
+[31m-  <description>TODO: Package description</description>[m
+[31m-  <maintainer email="mfauzi@uthm.edu.my">mfauzi</maintainer>[m
+[31m-  <license>TODO: License declaration</license>[m
+[31m-[m
+[31m-  <test_depend>ament_copyright</test_depend>[m
+[31m-  <test_depend>ament_flake8</test_depend>[m
+[31m-  <test_depend>ament_pep257</test_depend>[m
+[31m-  <test_depend>python3-pytest</test_depend>[m
+[31m-[m
+[31m-  <export>[m
+[31m-    <build_type>ament_python</build_type>[m
+[31m-  </export>[m
+[31m-</package>[m
+[1mdiff --git a/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml b/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml[m
+[1mnew file mode 120000[m
+[1mindex 0000000..6307b65[m
+[1m--- /dev/null[m
+[1m+++ b/ch4/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m/home/mfauzi/ros-fkee/ch4/ros2_ws/build/my_robot_description/package.xml[m
+\ No newline at end of file[m
+[1mdiff --git a/ch4/ros2_ws/log/latest_build b/ch4/ros2_ws/log/latest_build[m
+[1mindex a985dd0..32a4af1 120000[m
+[1m--- a/ch4/ros2_ws/log/latest_build[m
+[1m+++ b/ch4/ros2_ws/log/latest_build[m
+[36m@@ -1 +1 @@[m
+[31m-build_2026-05-12_09-47-43[m
+\ No newline at end of file[m
+[32m+[m[32mbuild_2026-05-14_10-51-31[m
+\ No newline at end of file[m
+[1mdiff --git a/ch4/ros2_ws/src/my_robot_description/urdf/my_2wd_robot.urdf.xacro b/ch4/ros2_ws/src/my_robot_description/urdf/my_2wd_robot.urdf.xacro[m
+[1mindex 010b7b4..2dd16da 100644[m
+[1m--- a/ch4/ros2_ws/src/my_robot_description/urdf/my_2wd_robot.urdf.xacro[m
+[1m+++ b/ch4/ros2_ws/src/my_robot_description/urdf/my_2wd_robot.urdf.xacro[m
+[36m@@ -118,27 +118,24 @@[m
+   </gazebo>[m
+ [m
+   <gazebo reference="laser_frame">[m
+[31m-    <sensor name="gpu_lidar" type="gpu_lidar">[m
+[31m-      <pose>0 0 0 0 0 0</pose>[m
+[31m-      <topic>scan</topic>[m
+[32m+[m[32m    <sensor name="laser" type="gpu_lidar">[m
+[32m+[m[32m      <gz_frame_id>laser_frame</gz_frame_id> <topic>scan</topic>[m
+[32m+[m[32m      <always_on>true</always_on>[m
+       <update_rate>10</update_rate>[m
+[31m-      <ray>[m
+[32m+[m[32m      <lidar>[m
+         <scan>[m
+           <horizontal>[m
+[31m-            <samples>640</samples>[m
+[32m+[m[32m            <samples>360</samples>[m
+             <resolution>1</resolution>[m
+[31m-            <min_angle>-3.14159</min_angle>[m
+[31m-            <max_angle>3.14159</max_angle>[m
+[32m+[m[32m            <min_angle>-3.14</min_angle>[m
+[32m+[m[32m            <max_angle>3.14</max_angle>[m
+           </horizontal>[m
+         </scan>[m
+         <range>[m
+[31m-          <min>0.08</min>[m
+[31m-          <max>10.0</max>[m
+[31m-          <resolution>0.01</resolution>[m
+[32m+[m[32m          <min>0.1</min>[m
+[32m+[m[32m          <max>12.0</max>[m
+         </range>[m
+[31m-      </ray>[m
+[31m-      <always_on>1</always_on>[m
+[31m-      <visualize>true</visualize>[m
+[32m+[m[32m      </lidar>[m
+     </sensor>[m
+   </gazebo>[m
+ [m
